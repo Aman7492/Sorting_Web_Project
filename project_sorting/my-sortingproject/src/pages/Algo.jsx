@@ -33,7 +33,7 @@ const descriptions = {
 
 function Algo() {
   const { sortType } = useParams();
-  const [array, setArray] = useState([]);
+  const [array, setArray] = useState([10,15,11,20,17,70,50,90,65]);
   const [speed, setSpeed] = useState(500);
   const [userInput, setUserInput] = useState("");
   const [sorting, setSorting] = useState(false);
